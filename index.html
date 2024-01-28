@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="Zomato.css">
+    <style>
+     a{
+      color: grey;
+      font-size:20px;
+      text-decoration: none;
+      margin-top: 20px;
+      padding-top: 20px;
+      padding-right: 40px;
+    }
+    
+    .zomato{
+      margin-left: 200px;
+
+    }
+    .bpd{
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+
+    .mek{
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+
+    .roti{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .btn1{
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+
+    .foot{
+      margin-left: 140px;
+      margin-right: 140px;
+    }
+      
+      
+    </style> 
+</head>
+<body>
+  
+
+  <div >
+    <header>
+    
+        <img class="zomato" src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="" width="100px" height="45%">
+     
+
+       <select name="location" id="loc">
+             <option selected >Bangalore</option>
+             <option value="Detect your current location"></option>
+
+       </select>
+
+        <input type="search" class="input2" placeholder="Search for restaurant ,cuisine or a dish" name="q" width="50px" height="40%">
+        <button type="submit"><img class="img3" src="searchicon.png" alt="" height="10%" width="30px"></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+       <a href="Login.html" class="two" id="Login">Log in</a>
+       <a href="Signup.html" class="two">Sign up</a>
+      </header>
+      </div>
+    <br><br>
+     
+     <div class="delivery">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><img class="img2" src="deliveryimg.png" alt="Delivery" height="80px" width="200px"></a>
+      <a href="https://www.zomato.com/bangalore/dine-out"><img class="img2" src="dinningimg.png" alt="Dining" height="80px" width="200px"></a>
+      <a href="https://www.zomato.com/bangalore/drinks-and-nightlife"><img class="img2" src="nightlifeimg.png" alt="Lightlife" height="80px" width="200px"></a>
+     </div>
+     <br>
+     <div class="filters">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="filters.html"><button onclick="">Filters</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="biryaniRest.html"><button onclick="">Rating: 4+</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="pureveg.html"><button onclick="" >Pure Veg</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#"><button onclick="">Cusines</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+     </div>
+
+     <div class="bpd">
+      <div class="txt">
+        <h2 style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 400; font-size: 30px;">Inspiration for your first order</h2>
+        
+      </div>
+    
+     
+    <div class="card">
+      <div class="crd">
+      <a href="biryaniRest.html"><img src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png" alt="" width="30px" height="30px"> </a>
+      <h3>Biryani</h3>
+    
+    </div>
+
+      <div class="crd">
+        <a href="pizza.html"><img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png" alt="image1" width="30px" height="50%"> </a>
+      <h3>Pizza</h3>
+     
+    </div>
+
+      <div class="crd">
+        <a href="donne_biryani.html"><img src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png" alt="image1" width="30px" height="50%"> </a>
+      <h3>Chiken</h3>
+     
+    </div>
+
+    <div class="crd">
+      <a href="burger.html"><img src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png" alt="image1" width="30px" height="50%"> </a>
+    <h3>Burger</h3>
+   
+  </div>
+  <div class="crd">
+    <a href="donne_biryani.html"><img src="https://b.zmtcdn.com/data/o2_assets/e444ade83eb22360b6ca79e6e777955f1632716661.png" alt="image1" width="30px" height="50"> </a>
+  <h3>Fried Rice</h3>
+ 
+  </div>
+    </div>
+  </div>
+  
+
+  <div class="mek">
+      <div class="txt">
+        <h2 style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 400; font-size: 30px;">Top brands for you</h2>
+      
+      </div>
+
+        <div class="card">
+          <div class="crd">
+          <a href="https://www.zomato.com/bangalore/mcdonalds-mg-road/order"><img src="mcDonald.jpeg" alt="" width="30px" height="30px"> </a>
+          <h3>McDonald's</h3>
+          <p>23 min</p>
+        </div>
+
+          <div class="crd">
+            <a href="https://www.zomato.com/bangalore/burger-king-commercial-street/order"><img src="6a11fd0f30c9fd9ceaff2f5b21f61d23_1617187721.avif" alt="image1" width="30px" height="50%"> </a>
+          <h3>Burger King</h3>
+          <p>27 min</p>
+        </div>
+
+          <div class="crd">
+            <a href="https://www.zomato.com/bangalore/empire-restaurant-shivajinagar-bangalore/order"><img src="empire1.png" alt="image1" width="30px" height="50%"> </a>
+          <h3>Empire Restaurant</h3>
+          <p>26 min</p>
+        </div>
+
+        <div class="crd">
+          <a href="https://www.zomato.com/bangalore/kfc-brigade-road-bangalore/order"><img src="kfc2.png" alt="image1" width="30px" height="50%"> </a>
+        <h3>KFC</h3>
+        <p>21 min</p>
+      </div>
+      <div class="crd">
+        <a href="https://www.zomato.com/bangalore/truffles-2-st-marks-road/order"><img src="239f872f52291fe253a37cc8dd16188f_1663838300.avif" alt="image1" width="30px" height="50"> </a>
+      <h3>Truffles</h3>
+      <p>23 min</p>
+      </div>
+        </div>
+      </div>
+
+      
+      <div class="roti">
+          <div class="txt">
+            <h2 style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 400; font-size: 30px;">Bengaluru Restaurants</h2>
+            
+        </div>
+         
+              <a href="Roti.html"><img class="img1" src="img1.png" alt="" width="30px" height="50"></a>
+              <a href="empire.html"><img class="img1" src="img2.png" alt="" width="30px" height="50"></a>
+             <a href="donne_biryani.html"><img class="img1" src="img3.png" alt="" width="30px" height="50"><br></a>
+           <a href="burger.html">  <img class="img1" src="img4.png" alt="" width="30px" height="50"></a>
+             <a href="donne_biryani.html"><img class="img1" src="img5.png" alt="" width="30px" height="50"></a>
+             <a href="icecream.html"> <img class="img1" src="img6.png" alt="" width="30px" height="50"></a><br>
+             <a href="empire.html"><img class="img1" src="img7.png" alt="" width="30px" height="50"></a>
+            <a href="donne_biryani.html"><img class="img1" src="img8.png" alt="" width="30px" height="50"></a>
+             <a href="dosa.html"><img class="img1" src="img9.png" alt="" width="30px" height="50"></a>
+
+            </div>
+    
+            <div class="btn1">
+
+    <div class="btn">
+      <h1>Explore options near me</h1>
+      <button>Popular Cities near me</button>
+      <button>Popular restaurant near me</button>
+      <button>Top restaurant near me</button>
+      <button>Cities we deliver to</button>
+
+    </div>
+    </div>
+
+    <div class="foot">
+    <div class="footer">
+      <div class="list">
+        <h2>ABOUT ZOMATO</h2><br>
+        <p>Who We Are</p><br>
+        <p>Blog</p><br>
+        <p>Work With Us</p><br>
+        <p>Investor Relation</p><br>
+        <p>Report Fraud</p>
+        
+      </div>
+
+      <div class="list">
+        <h2>ZOMAVERSE</h2><br>
+        <p>Zomato</p><br>
+        <p>Blinkit</p><br>
+        <p>Freeding India</p><br>
+        <p>Hyperpure</p><br>
+        <p>Zomaland</p>
+        
+      </div>
+
+      <div class="list">
+        <h2>FOR Restaurants</h2><br>
+        <p>Partner With Us</p><br>
+        <p>Apps For You</p><br>
+        <h2>FOR ENTERPRISES</h2><br>
+        <p>Zomato For Work</p>
+        
+      </div>
+
+      <div class="list">
+        <h2>LEARN MORE</h2><br>
+        <p>Privacy</p><br>
+        <p>Security</p><br>
+        <p>Terms</p><br>
+        <p>Sitemap</p>
+        
+      </div>
+      
+    </div>
+  </div>
+
+</body>
+</html>

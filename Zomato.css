@@ -1,0 +1,186 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.logotext{
+    margin-left: 150px;
+    margin-top: 10px;
+
+}
+
+
+
+.input2{
+    width: 40%;
+    height: 30px;
+    font-size: 19px;
+    margin-top: 10px;
+   
+   
+   
+    
+}
+
+.searchbar{
+    width: 190%;
+    
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    border-style:ridge;
+    
+}
+
+.searchbar .search1{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+  
+    font-size: 20px;
+    
+}
+.searchbar button img3{
+    width: 15px;
+}
+
+.searchbar button{
+    border: 0;
+    border-radius: 40%;
+    width: 40px;
+    height: 20px;
+    background: #f0f1f3;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(253, 248, 249);
+     margin-left: 5px;
+     margin-right: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  
+}
+
+.card .crd img{
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 50%;
+    
+}
+
+.txt{
+    margin-left: 44px;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.box{
+    display: block;
+   float: left;
+   width: 100px;
+   display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+  
+
+}
+
+.img1{
+   
+    width: 300px;
+    height: 270px;
+    margin-top: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 115px;
+    padding-bottom: 30px;
+}
+
+
+
+.app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(249,229,233);
+    margin-top: 66px;
+
+}
+
+.app img{
+    width: 25%;
+
+}
+
+.app h1{
+    margin-top: 94px;
+    font-size: 54px;
+}
+
+.btn h1{
+    margin-left: 44px;
+    margin-top: 44px;
+    padding: 33px;
+}
+
+.btn button{
+    width: 900px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 11px;
+    margin-left: 133px;
+    font-size: 22px;
+
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(235,231,231);
+    margin-top: 44px;
+    padding: 44px;
+}
+ 
+.delivery{
+    border-bottom: 1px solid aliceblue;
+}
+
+.filters{
+    margin-top: 5px;
+}
+
+#loc{
+    height: 30px;
+    margin-left: 40px;
+    margin-right: none;
+    margin-bottom: 5px;
+
+    
+}
+
+.two{
+    height: fit-content;
+    text-decoration: none;
+    color: rgb(175,172,172);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+    align-content: right;
+}
+

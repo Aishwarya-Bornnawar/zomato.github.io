@@ -1,0 +1,41 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.nv{
+   
+    width: 100%;
+    height: 40px;
+}
+
+.nv nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+  
+}
+
+.nv .logo img{
+    width: 35%;
+    margin-top: 66px;
+
+}
+
+
+nav p{
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+
+.nv .inp input{
+    width: 900px;
+    height: 50px;
+    font-size: 20px;
+    padding: 22px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+   
+}

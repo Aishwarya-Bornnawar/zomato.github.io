@@ -1,0 +1,12 @@
+.img1{
+   
+    width: 350px;
+    height: 310px;
+    margin-top: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 130px;
+    padding-bottom: 30px;
+}
